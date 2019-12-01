@@ -18,6 +18,12 @@
 */
 /**************************************************************************/
 
+
+#ifndef Adafruit_ADS1015_h
+#define Adafruit_ADS1015_h
+
+
+
 #if ARDUINO >= 100
  #include "Arduino.h"
 #else
@@ -148,3 +154,6 @@ class Adafruit_ADS1115 : public Adafruit_ADS1015
 
  private:
 };
+
+
+#endif /* Adafruit_ADS1015_h */
